@@ -18,7 +18,7 @@ from flask import (
 
 from werkzeug.security import generate_password_hash, check_password_hash
 
-from database import get_db_connection
+from backend.database import get_db_connection
 
 
 app = Flask(__name__)
